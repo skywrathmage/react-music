@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+ 
 class Content extends Component {
     constructor(props) {
         super(props);
@@ -7,13 +7,13 @@ class Content extends Component {
             expanded: false
         }
     }
-
+ 
     handleExpandClick = () => {
         this.setState({
             expanded: !this.state.expanded
         });
     }
-
+ 
     render() {
         const expanded = this.state.expanded;
         const {shortContent, content} = this.props;
@@ -39,5 +39,5 @@ class Content extends Component {
         );
     }
 }
-
+ 
 export default Content;

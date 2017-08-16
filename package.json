@@ -2,14 +2,11 @@
   "name": "react-music",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://codegym.azurewebsites.net/react-music/",
   "dependencies": {
-    "classnames": "^2.2.5",
-    "material-ui": "^1.0.0-beta.4",
-    "material-ui-icons": "^1.0.0-alpha.19",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
-    "react-html5video": "^2.3.0",
-    "react-scripts": "1.0.10"
+    "react-scripts": "1.0.11"
   },
   "scripts": {
     "start": "react-scripts start",

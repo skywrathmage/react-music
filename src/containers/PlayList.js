@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 import PlayListItem from '../components/list/PlayListItem';
-
-const PlayList = (props) => {
-        const {playList, handleVideoClick, selectedId} = props;
+ 
+const PlayList = ({playList, handleVideoClick, selectedId}) => {
         return (
             <div className="list-group">
                 {
@@ -13,5 +12,5 @@ const PlayList = (props) => {
             </div>
         );
 }
-
+ 
 export default PlayList;
